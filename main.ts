@@ -5,5 +5,6 @@ namespace Delta {
     export function DELTA() : number {
         return ((game.runtime() - timeLastFrame) / 20) + 1
         timeLastFrame = game.runtime()
+        timeLastFrame += 20
     }
 }
