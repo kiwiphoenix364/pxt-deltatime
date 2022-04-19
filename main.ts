@@ -6,6 +6,4 @@ namespace Delta {
         return (game.runtime() - timeLastFrame) / 20 + 1
     }
 }
-game.onUpdate(function() {
-    })
 timeLastFrame = game.runtime()
