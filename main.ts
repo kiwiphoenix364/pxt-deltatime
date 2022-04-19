@@ -7,4 +7,6 @@ namespace Delta {
         
     }
 }
-timeLastFrame = game.runtime() + 20
+game.onUpdate(function() {
+    timeLastFrame = game.runtime()
+})
