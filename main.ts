@@ -4,9 +4,9 @@ let timeLastFrame = 0
 namespace Delta {
     //%block=Delta
     export function DELTA() : number {
-        return (game.runtime() -timeLastFrame) / 20
+        return (game.runtime() - timeLastFrame) / 20
     }
 }
 game.onUpdate(function() {
-    timeLastFrame = game.runtime()
-})
+    })
+timeLastFrame = game.runtime()
