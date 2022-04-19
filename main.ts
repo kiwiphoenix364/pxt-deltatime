@@ -7,6 +7,6 @@ namespace Delta {
         
     }
 }
-game.onUpdate(function() {
+scene.CONTROLLER_PRIORITY,(function() {
     timeLastFrame = game.runtime()
 })
