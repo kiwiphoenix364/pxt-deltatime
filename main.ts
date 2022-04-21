@@ -3,6 +3,6 @@ let timeLastFrame = 0
 namespace Delta {
     //%block=Delta
     export function DELTA() : number {
-        return control.eventContext().deltaTime * 47
+        return control.eventContext().deltaTime * 40 + 0.2
     }
 }
