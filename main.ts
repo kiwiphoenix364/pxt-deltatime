@@ -3,7 +3,7 @@ let timeLastFrame = 0
 namespace Delta {
     //%block=delta
     export function DELTA() : number {
-            return Math.max(control.eventContext().deltaTime * 30, 1)
+            return control.eventContext().deltaTime * 48
     }
     //%block='rawdelta'
     export function RAW(): number {
